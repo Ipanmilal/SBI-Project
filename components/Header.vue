@@ -12,6 +12,7 @@
                     <NuxtLink to="/" class="text-base text-white">Home</NuxtLink>
                     <NuxtLink to="/product" class="text-base text-white">Product</NuxtLink>
                     <NuxtLink to="/about" class="text-base text-white">About</NuxtLink>
+                    <NuxtLink to="/cart" class="text-base text-white">cart</NuxtLink>
                     <NuxtLink to="/about" class="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded text-white">Profile</NuxtLink>
                 </nav>
             </div>

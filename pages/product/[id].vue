@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-import  { products } from "~/composables/constants/products"; import type { Products } from "~/types/products";
+import  { products } from "~/composables/constants/products"; 
+import type { Products } from "~/types/products";
 
 const route = useRoute();
 const id = typeof route.params.id === 'string' ? parseInt(route.params.id) : null;

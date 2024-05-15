@@ -11,11 +11,11 @@ const allProducts = computed(() => {
 </script>
 
 <template>
-	<section>
+	<section class="flex items-center justify-center">
 		<div class="container">
 			<div class="py-10">
 				<div class="mb-6 flex justify-end gap-6">
-					<Dropdown @selected-category="selectedCategory = $event" />
+					<DropDown @selected-category="selectedCategory = $event" />
 				</div>
 				<div class="flex gap-6 flex-wrap mx-auto">
 					<template v-for="(item, index) in allProducts" :key="index">
